@@ -1,14 +1,4 @@
-export { AddPipe } from './add.pipe';
-export { CalendarPipe } from './calendar.pipe';
-export { DateFormatPipe } from './date-format.pipe';
-export { DifferencePipe } from './difference.pipe';
-export { DurationPipe } from './duration.pipe';
-export { FromUnixPipe } from './from-unix.pipe';
-export { ParsePipe } from './parse.pipe';
 export { MomentModule } from './moment.module';
-export { SubtractPipe } from './subtract.pipe';
-export { TimeAgoPipe } from './time-ago.pipe';
-export { UtcPipe } from './utc.pipe';
-export { FromUtcPipe } from './from-utc.pipe';
-export { LocalTimePipe } from './local.pipe';
-export { LocalePipe } from './locale.pipe';
+export { SubDaysPipe } from './subtract/sub-days.pipe';
+export { SubMonthsPipe } from './subtract/sub-months.pipe';
+export { SubYearsPipe } from './subtract/sub-years.pipe';
